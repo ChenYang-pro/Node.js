@@ -1,5 +1,8 @@
 {
   "devDependencies": {
     "@types/node": "^15.0.2"
+  },
+  "dependencies": {
+    "math": "^0.0.3"
   }
 }
