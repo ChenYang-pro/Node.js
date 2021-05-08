@@ -4,6 +4,14 @@
 
 // npm -V  npm  npm search npm install  npm install 包名-g
 
+// npm remove/r 
+
+// npm install 包名 --save 安装包并加入依赖
+
+// 通过NPM下载的包都放到node_modules文件夹中，直接通过包名引入即可。
+
+// NODE使用模块名引入包时,逐级向上寻找包直到找到磁盘根目录位置
+
 const math = require('math')
 
 console.log(math.add(123,355))
